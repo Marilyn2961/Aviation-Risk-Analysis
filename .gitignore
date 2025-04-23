@@ -1,0 +1,59 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pdb
+*.so
+*.dylib
+*.env
+*.venv
+
+# Conda / Anaconda
+env/
+.conda/
+*.conda
+*.env/
+*.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb~
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.venv/
+
+# VS Code specific files
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# IDE files (VS Code, etc.)
+.idea/
+.vscode/
+
+# JetBrains IDE files
+.idea/
+
+# Ignore Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Others (custom based on your needs)
+*.csv
+*.xlsx
+*.pptx
+*.pdf
+
+# Ignore the README file as it’s generated in markdown
+README.md
