@@ -1,56 +1,62 @@
-# Pinnacle Ventures Aviation Risk Analysis
+# Aircraft Acquisition Risk Assessment
 
-## Project Overview
+## Project Overview  
+This project focuses on analyzing aircraft acquisition risks to support strategic entry into the aviation industry. Using historical aviation data, it evaluates aircraft models based on safety records, damage resilience, operational performance, and environmental factors. The goal is to provide data-driven insights that help minimize operational risks and maximize investment value for companies considering aircraft purchases.
 
-**Pinnacle Ventures** is expanding into new industries and is interested in purchasing and operating airplanes for both commercial and private enterprises. However, the company lacks knowledge about the potential risks associated with different aircraft types. This analysis aims to determine which aircraft models are the lowest risk and provide actionable insights to guide purchasing decisions for the head of the new aviation division.
+## Business Problem  
+This project aims to help guide decision making through data driven solutions from histrorical data to ensure the right aircrafts is selected especially for new entrants into the aviation industry . The right aircraft choice may lead to lower accident risks, low maintenance and operational costs which are critical aspects for any business.
+ This project addresses key questions such as:  
+- Which aircraft models have the safest track records?  
+- How do different models perform under adverse weather or during critical phases of flight?  
+- Which aircraft are more resilient to damage in incidents?  
 
----
+Answering these questions helps guide safer, smarter aircraft acquisitions that ensure operational success.
 
-## Data Description
+## Data Understanding  
+The analysis is based on aviation incident and accident data from credible aviation safety sources.  
+- **Source**: [**Dataset**] (https://www.kaggle.com/datasets/khsamaha/aviation-accident-database-synopses) 
+- **Key Variables**: Aircraft make and model, number of fatal injuries, aircraft damage classification (minor, substantial, destroyed), weather conditions, and flight phase.
 
-The dataset used in this analysis comes from the **National Transportation Safety Board (NTSB)** and includes aviation accident and incident data from 1962 to 2023. The key fields used in this analysis are:
+## Data Analysis
+The project employs the following methods:
 
-- **Make**: Aircraft manufacturer 
-- **Model**: Specific model of the aircraft 
-- **Injury.Severity**: Classification of the incident outcome
-- **Total.Fatal.Injuries**: Number of fatalities
-- **Total.Serious.Injuries**: Number of serious injuries
-- **Total.Minor.Injuries**: Number of minor injuries
-- **Total.Uninjured**: Number of uninjured passengers
-- **Aircraft.damage**: Extent of damage 
-- **Purpose.of.flight**: Purpose of flight
+Data Preprocessing: Cleaning data to handle missing values and ensure consistency.
 
----
+Exploratory Data Analysis: Identifying trends and patterns in accidents based on aircraft models, weather conditions, and phases of flight.
 
-## Data Preparation
+Visualization: Creating interactive charts and dashboards for easy visualization.
 
-1. **Select Relevant Columns**: Focus on the fields mentioned above to evaluate risk.
-2. **Handle Missing Values**: 
-   - Filled categorical fields with `'unknown'`.
-   - Filled numeric fields with `0`.
-3. **Standardize Text**: Converted all categorical text to lowercase.
-4. **Feature Engineering**:
-   - Created a combined **Make_Model** identifier for better categorization.
+The interactive Tableau dashboard is available here:
+🔗 View Dashboard
 
----
+Visualizations
+1. Top 5 Aircrafts Types by Least Total Number of Incidents
+[Aircraft Type by Least Total Number of Incidents](Visualizations\bargraph4.png)
+This bar chart highlights which aircraft models have the least number of Incidents, helping identify models associated with lower risks.
 
-## Analysis Steps
+2.Top 10 Aircrafts with Highest Fatal Injuries
+[Aircrafts with Highest Fatal Injuries](Visualizations\bargraph.png)
+This bar chart highlights which aircrafts models have the higest number of Fatal Injuries
 
-1. **Injury-based Summary**:
-   - Grouped by **Make** and **Model**, and calculated:
-     - Total incidents (count)
-     - Total fatalities (sum)
-     - Most common severity (mode)
-     - Total serious, minor, and uninjured counts
-     
-2. **Damage & Purpose Summary**:
-   - Grouped by **Make** and **Model**, and extracted:
-     - Most common damage type
-     - Most common purpose of flight
+3. Causes of Accidents by Phase of Flight
+[Causes of Accidents by Phase of Flight](Visualizations\bargraph7.png)
+This bar chart highlights causes of Accidents by phase of flight
 
-3. **Identifying Low-risk Aircraft**:
-   - Ranked models by **lowest fatalities** and **lowest severe damage** (substantial/destroyed).
-   - Combined these rankings to highlight the safest candidates.
+Recommendations
+Based on the data analysis and visualizations, the following recommendations are made for the company's entry into the aviation industry:
+
+Prioritize Aircraft with Lower Incident Rates and Fatalities
+Focus on purchasing aircraft models with lower total fatal injuries and fewer overall incidents. Aircraft like Maule MX-7-180 and 107.5 Flying Corporation One Design DR 107 exhibit significantly lower accident rates compared to others like Boeing 737 and Cessna 152, making them safer choices for commercial and private operations. Selecting aircraft with proven safety records will minimize risk exposure and improve operational reliability.
+
+Choose Aircraft with Higher Resilience to Damage
+Select aircraft models that tend to sustain minor damage more often than substantial or destroyed damage, such as Boeing Stearman E75 and Cessna Ector 3059. This suggests better resilience in the event of an incident. Aircraft like the Maule MX-7-180, which show higher proportions of minor damage, indicate better durability and lower long-term repair costs, making them ideal for both safety and cost-efficiency in operations.
+
+Monitor Aircraft Performance by Weather and Flight Phases
+Given that weather conditions and phases of flight significantly influence accident rates, prioritize aircraft that perform well under various conditions. Aircraft models associated with lower accident rates during adverse weather or critical phases (takeoff and landing) should be prioritized. For example, models like Cessna 172 that show resilience in varying weather conditions should be considered, while aircraft types with higher accident frequencies in challenging conditions should be avoided. This approach will help ensure safer operations across a wide range of environments and operational conditions.
 
 
+Thank You
+For further inquiries or collaboration opportunities, feel free to reach out:
+Name: Marilyn Akinyi
+LinkedIn: www.linkedin.com/in/marilyn-akinyi-602b99214
 
