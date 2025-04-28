@@ -27,19 +27,19 @@ Exploratory Data Analysis: Identifying trends and patterns in accidents based on
 Visualization: Creating interactive charts and dashboards for easy visualization.
 
 The interactive Tableau dashboard is available here:
-🔗 View Dashboard
+**View Dashboard**: [**Interactive Dashboard**](https://public.tableau.com/views/AviationRiskAnalysis_17458615345620/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Visualizations
 1. Top 5 Aircrafts Types by Least Total Number of Incidents
-[Aircraft Type by Least Total Number of Incidents](Visualizations\bargraph4.png)
+[**Aircraft Type by Least Total Number of Incidents**](Visualizations\bargraph4.png)
 This bar chart highlights which aircraft models have the least number of Incidents, helping identify models associated with lower risks.
 
 2.Top 10 Aircrafts with Highest Fatal Injuries
-[Aircrafts with Highest Fatal Injuries](Visualizations\bargraph.png)
+[**Aircrafts with Highest Fatal Injuries**](Visualizations\bargraph.png)
 This bar chart highlights which aircrafts models have the higest number of Fatal Injuries
 
 3. Causes of Accidents by Phase of Flight
-[Causes of Accidents by Phase of Flight](Visualizations\bargraph7.png)
+[**Causes of Accidents by Phase of Flight**](Visualizations\bargraph7.png)
 This bar chart highlights causes of Accidents by phase of flight
 
 Recommendations
