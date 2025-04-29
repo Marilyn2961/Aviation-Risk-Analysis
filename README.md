@@ -26,8 +26,14 @@ Exploratory Data Analysis: Identifying trends and patterns in accidents based on
 
 Visualization: Creating interactive charts and dashboards for easy visualization.
 
+- **Jupyter Notebook:** [Full Analysis](https://github.com/Marilyn2961/Aviation-Risk-Analysis/blob/master/aviation_risk_analysis.ipynb)  
+  *(Interactive data exploration, visualizations, and modeling code)*  
+- **Presentation:** [Key Findings](https://github.com/Marilyn2961/Aviation-Risk-Analysis/blob/master/Presentation.pdf)  
+  *(Concise slides summarizing insights and recommendations)*  
+
 The interactive Tableau dashboard is available here:
 **View Dashboard**: [**Interactive Dashboard**](https://public.tableau.com/views/AviationRiskAnalysis_17458615345620/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 
 ## Visualizations
 1. Top 5 Aircrafts Types by Least Total Number of Incidents
