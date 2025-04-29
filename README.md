@@ -31,15 +31,15 @@ The interactive Tableau dashboard is available here:
 
 ## Visualizations
 1. Top 5 Aircrafts Types by Least Total Number of Incidents
-![Aircraft Type by Least Total Number of Incidents](Images\bargraph4.png)
+![Aircraft Type by Least Total Number of Incidents](images/bargraph4.png)
 This bar chart highlights which aircraft models have the least number of Incidents, helping identify models associated with lower risks.
 
  2. Top 10 Aircrafts with Highest Fatal Injuries
-![Aircrafts with Highest Fatal Injuries](Images\bargraph.png)
+![Aircrafts with Highest Fatal Injuries](images/bargraph.png)
 This bar chart highlights which aircrafts models have the higest number of Fatal Injuries
 
 3. Causes of Accidents by Phase of Flight
-![Causes of Accidents by Phase of Flight](Images\bargraph7.png)
+![Causes of Accidents by Phase of Flight](images/bargraph7.png)
 This bar chart highlights causes of Accidents by phase of flight
 
 ## Recommendations
