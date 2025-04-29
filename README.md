@@ -32,7 +32,7 @@ Visualization: Creating interactive charts and dashboards for easy visualization
   *(Concise slides summarizing insights and recommendations)*  
 
 The interactive Tableau dashboard is available here:
-**View Dashboard**: [**Interactive Dashboard**](https://public.tableau.com/views/AviationRiskAnalysis_17458615345620/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+**View Dashboard**: [**Interactive Dashboard**](https://public.tableau.com/views/AviationRiskAnalysis_17458615345620/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_linkgi)
 
 
 ## Visualizations
