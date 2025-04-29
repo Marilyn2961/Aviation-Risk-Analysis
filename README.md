@@ -34,7 +34,7 @@ The interactive Tableau dashboard is available here:
 ![Aircraft Type by Least Total Number of Incidents](Images\bargraph4.png)
 This bar chart highlights which aircraft models have the least number of Incidents, helping identify models associated with lower risks.
 
-2.Top 10 Aircrafts with Highest Fatal Injuries
+ 2. Top 10 Aircrafts with Highest Fatal Injuries
 ![Aircrafts with Highest Fatal Injuries](Images\bargraph.png)
 This bar chart highlights which aircrafts models have the higest number of Fatal Injuries
 
